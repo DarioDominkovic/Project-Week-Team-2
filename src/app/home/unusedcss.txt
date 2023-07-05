@@ -1,0 +1,92 @@
+/* Contact */
+
+/* .contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+div[class^='person'] {
+    line-height: 4px;
+}
+
+.centerizer {
+    text-align: center;
+}
+
+
+.limiter {
+    align-self: center;
+    width: 120px;
+    height: 160px;
+    margin-bottom: 6px;
+}
+
+.imgcenterizer {
+    display:flex;
+    justify-content: center;
+}
+ */
+
+
+
+/* Interview */
+
+.interview {
+    background-color: grey;
+    position: relative;
+
+}
+
+#interview {
+    width: 100%;
+}
+
+/* h2[class^='x'] {
+} */
+
+
+.x1 {
+    position: absolute;
+    left: 75%;
+    top: 2%;
+}
+
+.x2 {
+    position: absolute;
+    left: 70%;
+    top: 6%;
+}
+
+.x3 {
+    position: absolute;
+    left: 66%;
+    top: 12%;
+}
+
+.x4 {
+    position: absolute;
+    left: 68%;
+    top: 18.5%;
+}
+
+.x5 {
+    position: absolute;
+    left: 70%;
+    top: 25%;
+}
+
+.x6 {
+    position: absolute;
+    left: 72%;
+    top: 31.5%;
+}
+
+.x7 {
+    position: absolute;
+    left: 79%;
+    top: 42%;
+}
+
+
+

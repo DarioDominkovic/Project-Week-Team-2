@@ -1,0 +1,75 @@
+<body>
+    
+<div class="main-container">
+<div class="main-photo">
+    <img class="image-people" src="/assets/photos/people-work.jpg" alt="" width="100%" height="500px">
+    <div class="text"><p class="main-text">YOUR DREAM JOB</p></div>
+</div>
+<!-- <p class="fs-2 title">Apply Now</p> -->
+
+<div class="title2">
+    <button (click) = "sortFunction()" type="button" class="btn btn-primary btn-sort">  Sort Alphabetically</button>
+</div>
+
+<!-- card with job add -->
+<div *ngFor="let job of jobs; index as i">
+<div class="card main-card-add" style="width: 60%;">
+ <div class="card-body job-add">
+    <div class="job-name">
+        <a class="name" routerLink="/jobs-details/{{i}}"><p class="name">{{job.job}}</p></a>
+        <p class="apply-till">Apply till {{job.deadline}}</p>
+        <p class="job-location">{{job.location}}</p>
+    </div>
+    <div class="job-time"> <img class="icon-job-time" src="/assets/photos/clock.svg" width="30px" alt=""> {{job.time}}</div>
+    </div>
+</div>
+
+</div>
+
+<!-- aticles part -->
+
+<p class="fs-2 title">Our Partners Advice</p>
+<div class="row row-cols-1 row-cols-md-2 row-cols-sm-1 container-articles" style="width: 80%;">
+  <div class="col">
+    <div class="card mb-3 border-0 ">
+      <img src="/assets/photos/photo1.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-body" style="background-color: #f8f9fb;">
+        <h5 class="card-title">No boring meetings in StadtWien Company</h5>
+        <p class="card-text">To avoid boring meetings, keep them concise and efficient with a clear agenda and time limit. Incorporate interactive elements to actively engage participants and spark creativity.</p>
+    <button type="button " class="btn btn-primary btn-read">Read More</button>
+    </div>
+    </div>
+  </div>
+  <div class="col rounded-0">
+    <div class="card  mb-3 border-0">
+      <img src="/assets/photos/girls-talk.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-body" style="background-color: #f8f9fb;">
+        <h5 class="card-title">Hofer supports women in IT</h5>
+        <p class="card-text">Women in IT are revolutionizing the industry with fresh perspectives and innovative solutions, while creating an inclusive environment to empower more women in pursuing successful IT careers.</p>
+    <button type="button " class="btn btn-primary btn-read">Read More</button>  
+    </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card  mb-3 border-0 ">
+      <img src="/assets/photos/home-office.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-body" style="background-color: #f8f9fb;">
+        <h5 class="card-title">Work in Solana and work from everywhere.</h5>
+        <p class="card-text">The home office promotes productivity by providing a customizable and distraction-free environment, allowing individuals to optimize their work performance and achieve work-life balance.</p>
+    <button type="button " class="btn btn-primary btn-read">Read More</button>   
+    </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card  mb-3 border-0">
+      <img src="/assets/photos/man-tired.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-body" style="background-color: #f8f9fb;">
+        <h5 class="card-title">Work Life Balance. How to find?</h5>
+        <p class="card-text">Achieving work-life balance involves setting boundaries, prioritizing self-care, and establishing a clear separation between work and personal life, enabling individuals to thrive in both aspects.</p>
+    <button type="button " class="btn btn-primary btn-read">Read More</button>    
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>

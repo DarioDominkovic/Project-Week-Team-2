@@ -1,0 +1,55 @@
+:root {
+  --main: #072c92;
+  --second: #da962b;
+  --white: #f1f1f1;
+  --black: #000f08;
+}
+#carouselExampleCaptions {
+  width: 100%;
+  height: 400px;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item {
+  height: 100%;
+}
+.title {
+  margin: 20px;
+}
+.code {
+  display: inline-block;
+
+  color: #072c92;
+  font-weight: bold;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.frase {
+  background-color: #da962b;
+  margin: 20px;
+  padding: 20px;
+  color: #f1f1f1;
+}
+.boton {
+  background-color: #072c92;
+}
+.advice {
+  padding: 20px;
+}
+
+#scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.si {
+  text-shadow: 2px 2px #072c92;
+}

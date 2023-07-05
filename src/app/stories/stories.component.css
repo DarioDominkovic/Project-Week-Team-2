@@ -1,0 +1,116 @@
+.caption {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 18PX;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+
+/* cart section */
+.slide img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.slideBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.moreStudents {
+  background-image: url(https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-attachment: fixed;
+  width: 97.5%;
+}
+
+.carts {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*start Services*/
+.Services .h-design {
+  color: #DA962B;
+}
+
+.Services .h-web {
+  color: rgb(19, 19, 93);
+}
+
+.Services .h-seo {
+  color: #DA962B;
+}
+
+/*end Services*/
+
+/*start counter*/
+.counter {
+  background-image: url(https://images.unsplash.com/photo-1613375920388-f1f70f341f8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #da972bd1;
+
+}
+
+.counter .breaks::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+}
+
+.counter .breaks::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+}
+
+/*end counter*/
+/*start team*/
+.team {
+  background-image: url(https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-attachment: fixed;
+
+}
+
+.team .icon .a {
+  color: inherit;
+}
+
+/*end team*/
+
+
+/* contact us/*  */
+.contactUs {
+  border: 1px solid #eeee;  
+}
+
+  

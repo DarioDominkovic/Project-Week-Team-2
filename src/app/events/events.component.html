@@ -1,0 +1,85 @@
+<section class="dark">
+  <div class="container py-4">
+    <div class="event-header">
+      <div class="h1 text-center" id="HeaderTitle">Events</div>
+      <div
+        class="sorting-buttons d-flex align-items-center justify-content-center"
+      >
+        <p class="nomargin">ON-SITE</p>
+
+        <input type="checkbox" (change)="switchLocation()" id="switch" /><label
+          for="switch"
+        ></label>
+
+        <button (click)="switchView()" class="border-0">
+          <span *ngIf="isGridView">
+            <i class="fa-solid fa-grip" style="color: #072c92"></i>
+          </span>
+          <span *ngIf="!isGridView">
+            <i class="fa fa-list" style="color: #da962b"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="row" id="eventsContainer">
+      <div
+        *ngFor="let event of events"
+        [ngClass]="{
+          'col-md-6 col-lg-4': !isGridView,
+          'event-card': !isGridView,
+          'col-12': isGridView,
+          hide: event.location !== 'On-site'
+        }"
+      >
+        <div
+          class="mb-4 border-0 card-main"
+          [ngClass]="{
+            card: !isGridView,
+            row: isGridView
+          }"
+        >
+          <div
+            class="card-img-link"
+            href="#"
+            [ngClass]="{
+              'col-3': isGridView
+            }"
+          >
+            <img class="card-img" src="{{ event.image }}" alt="Image Title" />
+          </div>
+          <div
+            class="card-body"
+            [ngClass]="{
+              'col-7': isGridView
+            }"
+          >
+            <div class="card-content">
+              <h5 class="card-title">
+                <h3>{{ event.name }}</h3>
+              </h5>
+              <p class="card-text">
+                <time datetime="2020-05-25 12:00:00">
+                  <h6>
+                    <i class="date fas fa-calendar-alt mr-2"></i>
+                    {{ event.date }}
+                  </h6>
+                </time>
+              </p>
+              <hr class="card-hr" />
+              <p class="card-text">{{ event.description }}</p>
+              <hr class="card-hr" />
+              <div class="info">
+                <div class="industry">
+                  <i class="fa-solid fa-tag"></i> {{ event.industry }}
+                </div>
+                <div class="location">
+                  <i class="fa-solid fa-location-dot"></i> {{ event.location }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

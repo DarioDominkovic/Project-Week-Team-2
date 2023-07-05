@@ -1,0 +1,112 @@
+:root {
+  --main: #072c92;
+  --second: #da962b;
+  --white: #f1f1f1;
+  --black: #000f08;
+}
+* {
+  text-decoration: none;
+}
+body {
+  margin: 60px;
+}
+i {
+  color: var(--main);
+}
+button {
+  padding: 10px;
+  background-color: var(--white);
+}
+button:hover {
+  border: solid 2px #000f08;
+}
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+h3 {
+  color: #000f08;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#HeaderTitle {
+  color: #000f08;
+}
+
+.card {
+  height: 600px;
+  margin-bottom: 20px;
+}
+.date {
+  color: #da962b;
+}
+.card-main {
+  background-color: #f8f9fb;
+}
+.info {
+  display: flex;
+}
+.industry {
+  color: #f1f1f1;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background-color: #072c92;
+}
+.location {
+  margin-left: 1vh;
+  color: #f1f1f1;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background-color: #da962b;
+}
+/* switch */
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  margin-right: 20px;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #da962b;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 80px;
+}
+.nomargin {
+  margin: 0 20px 0 0;
+}

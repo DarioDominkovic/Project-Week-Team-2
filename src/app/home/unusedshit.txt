@@ -1,0 +1,89 @@
+
+
+    <!-- Next Part -->
+    <!-- <div class="newsletter">
+        <div class="entry form">
+            <p>Subscribe to our Newsletter</p>
+            <div class="break"></div>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <button class="elbuton">Subscribe</button>
+        </div>
+    </div> -->
+
+    <!-- Contact -->
+
+    <!-- <div class="contacts">
+        <div class="person01">
+            <div class="imgcenterizer">
+                <img src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+                    alt="" class="limiter">
+            </div>
+            <div class="centerizer">
+                <p>Dario</p>
+                <p>Chief of getting shit done</p>
+                <p>Tel: abc 420 69 xd</p>
+                <p>Mail: dariodaboss@gmail.com</p>
+            </div>
+        </div>
+        <div class="person02">
+            <div class="imgcenterizer">
+                <img src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+                    alt="" class="limiter">
+            </div>
+            <div class="centerizer">
+                <p>Dario</p>
+                <p>Chief of getting shit done</p>
+                <p>Tel: abc 420 69 xd</p>
+                <p>Mail: dariodaboss@gmail.com</p>
+            </div>
+        </div>
+        <div class="person01">
+            <div class="imgcenterizer">
+                <img src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+                    alt="" class="limiter">
+            </div>
+            <div class="centerizer">
+                <p>Dario</p>
+                <p>Chief of getting shit done</p>
+                <p>Tel: abc 420 69 xd</p>
+                <p>Mail: dariodaboss@gmail.com</p>
+            </div>
+        </div>
+        <div class="person01">
+            <div class="imgcenterizer">
+                <img src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+                    alt="" class="limiter">
+            </div>
+            <div class="centerizer">
+                <p>Dario</p>
+                <p>Chief of getting shit done</p>
+                <p>Tel: abc 420 69 xd</p>
+                <p>Mail: dariodaboss@gmail.com</p>
+            </div>
+        </div>
+        <div class="person01">
+            <div class="imgcenterizer">
+                <img src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+                    alt="" class="limiter">
+            </div>
+            <div class="centerizer">
+                <p>Dario</p>
+                <p>Chief of getting shit done</p>
+                <p>Tel: abc 420 69 xd</p>
+                <p>Mail: dariodaboss@gmail.com</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Interview  -->
+
+    <!-- <div class="interview">
+        <img src="student.png" alt="" id="interview">
+        <h4 class="x1">Alumni Interview</h4>
+        <h2 class="x2">Adebiyi Abdullahi</h2>
+        <p class="x3">We are thrilled to present an exclusive interview with Adebiyi Abdullahi, a remarkable Nigerian exchange</p>
+        <p class="x4"> student who has recently graduated from a prestigious coding academy. Adebiyi's journey is </p>
+        <p class="x5"> an inspiring testament to the power of determination, passion, and the limitless</p>
+        <p class="x6"> possibilities that arise from embracing technology.</p>
+        <button class="x7"> See Adebiyi's Story</button>
+    </div> -->

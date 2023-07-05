@@ -1,0 +1,27 @@
+.btn-apply {
+    background-color: #072C92;
+    color: #F1F1F1;
+    border: #072C92;
+}
+
+.main-body {
+    margin-bottom: 80px;
+}
+
+.table {
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.btn-submit {
+
+    background-color: #072C92;
+    color: #F1F1F1;
+    border-color: #072C92;
+    align-items: center;
+    margin-top: 5px;
+
+
+
+}
