@@ -13,13 +13,11 @@ img {
   background-color: #f1f1f1;
   border-radius: 15px;
   padding: 10px;
-
   border: #da962b 5px solid;
 }
 nav {
   background-color: #072c92;
   padding: 0px 80px;
-  height: 150px;
   border-bottom: #da962b 5px solid;
 }
 .nav-item {
@@ -34,8 +32,4 @@ nav {
 .nav-link:hover {
   background-color: #da962b;
   color: #072c92;
-}
-.active {
-  border-radius: 20px;
-  background-color: #da962b;
 }

@@ -23,7 +23,9 @@ a {
 }
 #copyright {
   color: #f1f1f1;
-  height: 60px;
+  height: 80px;
+  padding: 30px 0px;
+  background-color: #da962b;
 }
 
 .footer-link {

@@ -1,7 +1,6 @@
 .caption {
   text-align: center;
-  font-family: 'Caveat', cursive;
-  font-size: 18PX;
+  font-size: 18px;
 }
 
 .arrow {
@@ -14,7 +13,6 @@
 }
 
 @keyframes moveUpDown {
-
   0%,
   100% {
     transform: translateY(0);
@@ -24,7 +22,6 @@
     transform: translateY(20px);
   }
 }
-
 
 /* cart section */
 .slide img {
@@ -40,9 +37,11 @@
 }
 
 .moreStudents {
+  /* 
   background-image: url(https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
   background-attachment: fixed;
-  width: 97.5%;
+  width: 97.5%;*/
+  margin-top: 30px;
 }
 
 .carts {
@@ -51,7 +50,7 @@
 
 /*start Services*/
 .Services .h-design {
-  color: #DA962B;
+  color: #da962b;
 }
 
 .Services .h-web {
@@ -59,7 +58,7 @@
 }
 
 .Services .h-seo {
-  color: #DA962B;
+  color: #da962b;
 }
 
 /*end Services*/
@@ -70,11 +69,10 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: #da972bd1;
-
 }
 
 .counter .breaks::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 3px;
   height: 100%;
@@ -84,7 +82,7 @@
 }
 
 .counter .breaks::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 3px;
   height: 100%;
@@ -95,10 +93,12 @@
 
 /*end counter*/
 /*start team*/
-.team {
-  background-image: url(https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
-  background-attachment: fixed;
 
+.team {
+  /*
+  background-image: url(https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-attachment: fixed;*/
+  background-color: #eeeeee7e;
 }
 
 .team .icon .a {
@@ -107,10 +107,7 @@
 
 /*end team*/
 
-
 /* contact us/*  */
 .contactUs {
-  border: 1px solid #eeee;  
+  border: 1px solid #eeee;
 }
-
-  

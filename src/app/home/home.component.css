@@ -1,150 +1,142 @@
 .container {
-    /* outline: 2px solid red; */
-    margin-bottom: 20px;
-    /* Delete this line later */
+  /* outline: 2px solid red; */
+  margin-bottom: 100px;
+  /* Delete this line later */
 }
 
 /* Intro Image at the Beginning */
 
 .introimg {
-    background-image: url("https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=449&q=80");
-    background-repeat: no-repeat;
-    background-position: 50% 65%;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-    outline: 2px solid black;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=749&q=80");
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  /* display: flex; */
+  justify-content: center;
 }
 
-.introimg>h1 {
-    margin-top: 30px;
-    background-image: linear-gradient(90deg, #DA962B, #072C92, #DA962B, #072C92, #DA962B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.introimg > h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #072c929b;
+  padding: 20px;
+  text-align: center;
 }
 
 /* Minisectino after the Image */
 
 .minisection {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.left>span {
-    border: 1px solid grey;
-    padding: 0 10px 0 10px;
+.left > span {
+  /* border: 1px solid grey; */
+  padding: 0 10px 0 10px;
 }
 
-.right>i {
-    margin: 0 5px 0 10px;
+.right > i {
+  margin: 0 5px 0 10px;
 }
 
 /* Content Section */
 
 .contentainer {
-    display: flex;
-    justify-content: start;
-    background-color: rgb(229, 234, 240);
-    padding: 5px;
-    padding-top: 20px;
-
+  display: flex;
+  justify-content: start;
+  /* background-color: rgb(229, 234, 240); */
+  padding: 5px;
+  padding-top: 20px;
+  border-top: #da962b 8px solid;
 }
 
 .leftainer {
-    display: grid;
-
-    width: 70%;
-    margin: 0px;
-    min-height: 200px;
-    gap: 10px;
+  display: grid;
+  width: 70%;
+  margin: 0px;
+  min-height: 200px;
+  gap: 10px;
+}
+h5 {
+  color: #072c92;
 }
 
 .rightainer {
-    width: 30%;
-    margin: 0px;
-    min-height: 200px;
-    border-left: 1px solid grey;
-    padding-left: 8px;
-
+  width: 30%;
+  margin-left: 10px;
+  min-height: 200px;
+  padding-left: 8px;
+  background-color: #f8f8fb;
 }
 
 .imgsizelimit {
-    height: 200px;
+  height: 200px;
 }
 
-.cardsizelimit {
-    outline: 1 px solid grey;
-    overflow: hidden;
-}
-
-div[class^='entry'] {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin: 5px 0 5px 0;
-    /* border: 2px solid green; */
+div[class^="entry"] {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px 0 5px 0;
+  /* border: 2px solid green; */
 }
 
 .minileft {
-    width: 40%;
+  width: 40%;
 }
 
 .miniright {
-    width: 60%;
+  width: 60%;
 }
 
-div[class^='entry'] {
-    display: flex;
-    justify-content: start;
+div[class^="entry"] {
+  display: flex;
+  justify-content: start;
 }
 
 /* More Blogposts */
 
 .moreblog {
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Next Part */
 
 .newsletter {
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 300px;
 }
 
 .btn {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
-
-
-
 @media only screen and (max-width: 991px) {
-    .leftainer {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .leftainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    .leftainer {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .leftainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .leftainer {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .leftainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* grid-template-columns: repeat(1, 1fr); */

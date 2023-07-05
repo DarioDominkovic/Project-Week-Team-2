@@ -1,12 +1,17 @@
-:root {
+/* :root {
   --main: #072c92;
   --second: #da962b;
   --white: #f1f1f1;
   --black: #000f08;
+} */
+
+.container {
+  margin-bottom: 100px;
 }
+
 #carouselExampleCaptions {
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 img {
@@ -23,9 +28,8 @@ img {
 }
 .code {
   display: inline-block;
-
+  font-size: 40px;
   color: #072c92;
-  font-weight: bold;
 }
 .logo {
   width: 100px;
@@ -39,6 +43,7 @@ img {
 }
 .boton {
   background-color: #072c92;
+  border: 0px solid;
 }
 .advice {
   padding: 20px;

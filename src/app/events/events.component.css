@@ -13,20 +13,13 @@ body {
 i {
   color: var(--main);
 }
-button {
-  padding: 10px;
-  background-color: var(--white);
-}
-button:hover {
-  border: solid 2px #000f08;
-}
 img {
   height: 300px;
   width: 100%;
   object-fit: contain;
 }
 h3 {
-  color: #000f08;
+  color: #da962b;
 }
 
 .event-header {
@@ -35,7 +28,7 @@ h3 {
 }
 
 #HeaderTitle {
-  color: #000f08;
+  color: #072c92;
 }
 
 .card {

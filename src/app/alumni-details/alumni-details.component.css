@@ -1,22 +1,22 @@
-.container-1{
-    padding: 40px;
-    background-color: #f8f9fb;
-    margin: 20px;
+.container-1 {
+  background-color: #f8f9fb;
+  margin: 100px auto;
+  width: 80%;
 }
-.container-2{
-    display:flex;
+.container-2 {
+  display: flex;
 }
-.img-1{
-    width: 300px;
+.img-1 {
+  width: 300px;
   height: 200px;
 }
-.side{
-    padding: 20px;
+.side {
+  padding: 20px;
 }
-.container-3{
-    padding: 20px;
+.container-3 {
+  padding: 20px;
 }
-h6{
-    background-color: #DA962B;
-    
+h5 {
+  padding: 5px;
+  background-color: #da962b;
 }

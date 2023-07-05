@@ -1,90 +1,92 @@
 <div class="container">
-    <!-- Intro Image at the beginning -->
-    <div class="introimg">
-        <h1>Welcome to the Alumni Club</h1>
+  <!-- Intro Image at the beginning -->
+  <div class="introimg">
+    <h1>Welcome to the Alumni Club</h1>
+  </div>
+  <!-- Minisection after the Image -->
+  <!-- <div class="minisection">
+    <div class="left">
+      <span>Reunion Weekend 2015</span>
+      <span>Distinguished Alumni</span>
+      <span>Career Resources</span>
+      <span>More Events</span>
     </div>
-    <!-- Minisection after the Image -->
-    <div class="minisection">
-        <div class="left">
-            <span>Reunion Weekend 2015</span>
-            <span>Distinguished Alumni</span>
-            <span>Career Resources</span>
-            <span>More Events</span>
-        </div>
-        <div class="right">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-tiktok"></i>
-        </div>
+    <div class="right">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-tiktok"></i>
     </div>
-    <!-- Content Section -->
-    <div class="contentainer">
-        <div class="leftainer">
-            <div  *ngFor="let item of cards">
-                <div class="card cardsizelimit" style="width: 100%;">
-                    <img class="card-img-top imgsizelimit" src="{{ item.image }}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">{{item.title}}</h5>
-                        <p class="card-text">{{item.text}}</p>
-                    </div>
-                </div>
-            </div>
+  </div> -->
+  <!-- Content Section -->
+  <div class="contentainer">
+    <div class="leftainer">
+      <div *ngFor="let item of cards">
+        <div
+          class="card border-0 rounded-0 cardsizelimit"
+          style="width: 100%; background-color: #f8f8fb"
+        >
+          <img
+            class="card-img-top imgsizelimit"
+            src="{{ item.image }}"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ item.title }}</h5>
+            <p class="card-text">{{ item.text }}</p>
+          </div>
         </div>
-        
-        <div class="rightainer">
-            <div class="entry1">
-                <div class="minileft">
-                    <span>Wed Mar 04</span>
-                </div>
-                <div class="miniright">
-                    <a href="">Boston Pub Night - March</a>
-                </div>
-            </div>
-            <div class="entry2">
-                <div class="minileft">
-                    <span>Fri Mar 06</span>
-                </div>
-                <div class="miniright">
-                    <a href="">Pasadene Monthly Lunch - March</a>
-                </div>
-            </div>
-            <div class="entry3">
-                <div class="minileft">
-                    <span>Wed Mar 04</span>
-                </div>
-                <div class="miniright">
-                    <a href="">Boston Pub Night - March</a>
-                </div>
-            </div>
-            <div class="entry4">
-                <div class="minileft">
-                    <span>Fr Jun 02</span>
-                </div>
-                <div class="miniright">
-                    <a href="">Party Weekend at the Irish Pub</a>
-                </div>
-            </div>
-            <div class="entry5">
-                <div class="minileft">
-                    <span>Sat Jun 03</span>
-                </div>
-                <div class="miniright">
-                    <a href="">Wet T-Shirt Contest</a>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
-    <!-- More Blogposts -->
+    <div class="rightainer">
+      <div class="entry1">
+        <div class="minileft">
+          <span>Wed Mar 04</span>
+        </div>
+        <div class="miniright">
+          <a href="">Boston Pub Night - March</a>
+        </div>
+      </div>
+      <div class="entry2">
+        <div class="minileft">
+          <span>Fri Mar 06</span>
+        </div>
+        <div class="miniright">
+          <a href="">Pasadene Monthly Lunch - March</a>
+        </div>
+      </div>
+      <div class="entry3">
+        <div class="minileft">
+          <span>Wed Mar 04</span>
+        </div>
+        <div class="miniright">
+          <a href="">Boston Pub Night - March</a>
+        </div>
+      </div>
+      <div class="entry4">
+        <div class="minileft">
+          <span>Fr Jun 02</span>
+        </div>
+        <div class="miniright">
+          <a href="">Party Weekend at the Irish Pub</a>
+        </div>
+      </div>
+      <div class="entry5">
+        <div class="minileft">
+          <span>Sat Jun 03</span>
+        </div>
+        <div class="miniright">
+          <a href="">Wet T-Shirt Contest</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- More Blogposts -->
+  <!-- 
     <div class="moreblog">
         <button>More Blogposts</button>
-    </div>
-
-
-
-
-
+    </div> -->
 </div>
