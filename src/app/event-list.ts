@@ -12,6 +12,16 @@ export const events: IEvents[] = [
       'https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg',
   },
   {
+    name: 'Graduation Party',
+    date: 'June 30, 2024',
+    description:
+      'A celebration for students who have successfully completed their studies.',
+    industry: 'Codefactory',
+    location: 'On-site',
+    image:
+      'https://codefactory.wien/wp-content/uploads/2020/12/cropped-CodeFactory-LOGO-September-2020.png',
+  },
+  {
     name: 'Data Science Vienna',
     date: 'May 10, 2023',
     description:
@@ -40,6 +50,16 @@ export const events: IEvents[] = [
     location: 'Vienna',
     image:
       'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1600',
+  },
+  {
+    name: 'Career Fair',
+    date: 'February 15, 2024',
+    description:
+      'An event for job seekers to meet with employers and explore career opportunities.',
+    industry: 'Codefactory',
+    location: 'On-site',
+    image:
+      'https://codefactory.wien/wp-content/uploads/2020/12/cropped-CodeFactory-LOGO-September-2020.png',
   },
   {
     name: 'DevOps Meetup Vienna',
@@ -86,26 +106,6 @@ export const events: IEvents[] = [
     date: 'January 5, 2024',
     description:
       'A day for visitors to explore our facilities and learn more about our organization.',
-    industry: 'Codefactory',
-    location: 'On-site',
-    image:
-      'https://codefactory.wien/wp-content/uploads/2020/12/cropped-CodeFactory-LOGO-September-2020.png',
-  },
-  {
-    name: 'Career Fair',
-    date: 'February 15, 2024',
-    description:
-      'An event for job seekers to meet with employers and explore career opportunities.',
-    industry: 'Codefactory',
-    location: 'On-site',
-    image:
-      'https://codefactory.wien/wp-content/uploads/2020/12/cropped-CodeFactory-LOGO-September-2020.png',
-  },
-  {
-    name: 'Graduation Party',
-    date: 'June 30, 2024',
-    description:
-      'A celebration for students who have successfully completed their studies.',
     industry: 'Codefactory',
     location: 'On-site',
     image:
